@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CocktailApp</string>
+    <string name="home_failure_cocktail_of_the_day">Failed to load cocktail of the day. Check your connectivity and try again.</string>
+    <string name="home_failure_search">Failed to search for cocktails. Check you connectivity and try again.</string>
+    <string name="home_retry">Retry</string>
+    <string name="home_no_favorites">You don\'t have any favorite cocktails yet. Start exploring by searching</string>
+</resources>
