@@ -1,10 +1,10 @@
 # Cocktail test app
 
 This simple app contains 2 screens:
-* [HomeScreen](app/src/main/java/com/example/cocktailapp/presentation/home/HomeScreen.kt):
+* [HomeScreen](java/com/example/cocktailapp/presentation/home/HomeScreen.kt):
     * Responsible for displaying the "Cocktail of the day" recommendation, a user's favorite cocktails "Favorite cocktails"
     * Also responsible for handling searching for cocktails and displaying search results
-* [DetailScreen](app/src/main/java/com/example/cocktailapp/presentation/detail/DetailScreen.kt):
+* [DetailScreen](java/com/example/cocktailapp/presentation/detail/DetailScreen.kt):
     * Displays the details of a cocktail once selected
 
 The app is built using a layered architecture where we have the:
@@ -15,7 +15,7 @@ The app is built using a layered architecture where we have the:
 From a technical perspective the app uses:
 * Compose for the UI components, screens and theming
 * Kotlin Coroutines and Flows for async operations
-* Single-activity structure where [MainActivity](app/src/main/java/com/example/cocktailapp/MainActivity.kt) set's up the Compose app
+* Single-activity structure where [MainActivity](java/com/example/cocktailapp/MainActivity.kt) set's up the Compose app
 * AndroidX Navigation Compose is used for handling navigation between screens and the navigation backstack
 * AndroidX Hilt (Dagger2) is used for dependency injection
 * Retrofit and Moshi for the Network operations
